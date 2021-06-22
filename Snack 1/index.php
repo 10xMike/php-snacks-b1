@@ -46,8 +46,12 @@ $nba_matches = [
     ],
 ];
 
-foreach ($age as $x => $x_value) {
-    echo "Key=" . $x . ", Value=" . $x_value;
+var_dump($nba_matches);
+
+foreach ($nba_matches as $match) {
+    echo "<section>{$match["HomeTeam"]} - {$match["Guests"]}</section>";
+    echo "<br>";
+    echo "<section>{$match["HomePoints"]} - {$match["GuestsPoints"]}</section>";
     echo "<br>";
 }
 ?>
