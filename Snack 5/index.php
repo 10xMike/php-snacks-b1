@@ -14,9 +14,9 @@ $burnhamArray = explode(".", $burnham);
 
 echo "<pre>";
 var_dump($burnham, $burnhamArray);
-echo "</pre>";
+echo "</pre><hr>";
 
-echo "<div>" . $burnham . strlen($burnham) . "</div>";
+echo "<div>" . $burnham . "<hr>" . strlen($burnham) . "</div>";
 ?>
 
 </body>
