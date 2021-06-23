@@ -1,7 +1,11 @@
 <?php
 
+$_GET["name"];
+$_GET["age"];
+$_GET["mail"];
+
 echo '<pre>';
-var_dump($_GET);
+var_dump(strlen($_GET["name"] > 3));
 echo '</pre>';
 
 ?>
